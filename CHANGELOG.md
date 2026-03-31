@@ -14,3 +14,14 @@
 ### Improved
 - Reduced duplicate detections
 - More consistent queue count
+
+## [3.0.0] - Final Version
+
+### Added
+- Queue statistics logging
+- CSV export feature
+- Dashboard visualization
+
+### Improved
+- Code structure and modularity
+- Documentation and usability
