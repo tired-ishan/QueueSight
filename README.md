@@ -13,6 +13,11 @@ Queues are a daily problem in canteens, helpdesks, libraries, and service counte
 - Counts them frame by frame
 - Draws the queue area and count on the video
 
+## Version 2 - Improved Stability
+- Added object tracking
+- Reduced duplicate counting
+- Added smoothing for stable output
+
 ## Tech stack
 
 - Python
@@ -30,12 +35,14 @@ queuesight_project/
 ├── app.py
 ├── detector.py
 ├── utils.py
+├── tracker.py
 ├── config.yaml
 ├── requirements.txt
 ├── README.md
 ├── CHANGELOG.md
 ├── versions/
 │   ├── v1_basic_counter.py
+│   ├── v2_tracking_counter.py
 └── outputs/
 ```
 
